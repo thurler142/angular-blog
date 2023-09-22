@@ -1,0 +1,10 @@
+@media screen and (max-width: 768px) {
+    .container__articles {
+        flex-direction: column; /* Altera a direção para uma coluna */
+        align-items: center; /* Centraliza os itens horizontalmente */
+    }
+
+    header {
+        margin-top: 10px; /* Reduz a margem superior do header */
+    }
+}

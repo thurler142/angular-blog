@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px) {
+    .container__big-card {
+        width: 100%; /* Altera a largura para ocupar toda a largura da tela */
+        height: auto; /* Ajusta a altura automaticamente conforme o conteúdo */
+        margin: 0; /* Remove as margens lateral */
+        align-items: center; /* Centraliza os itens verticalmente */
+    }
+
+    .big-card__photo > img {
+        min-width: 100%; /* Faz com que a imagem ocupe toda a largura da tela */
+        height: auto; /* Ajusta a altura automaticamente */
+    }
+}

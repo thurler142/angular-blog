@@ -1,0 +1,15 @@
+@media screen and (max-width: 768px) {
+    .container__small-card {
+        width: 100%; /* Altera a largura para ocupar toda a largura da tela */
+    }
+
+    .small-card__photo > img {
+        width: 100%; /* Faz com que a imagem ocupe toda a largura do container */
+        min-width: auto; /* Remove a largura mínima da imagem */
+        margin-right: 0; /* Remove a margem direita */
+    }
+    
+    .container__small-card-content {
+        flex-direction: column; /* Altera a direção para uma coluna */
+    }
+}

@@ -1,0 +1,12 @@
+@media screen and (max-width: 768px) {
+    .container__menu-bar > ul {
+        flex-direction: row; /* Altera a direção para uma lista vertical */
+        
+    }
+    li {
+        padding: 10px;
+    }
+    .container__menu-bar > ul > li {
+        margin: 10px 0; /* Reduz a margem entre os itens da lista */
+    }
+}

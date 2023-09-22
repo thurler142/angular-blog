@@ -1,0 +1,12 @@
+@media screen and (max-width: 768px) {
+    .container__menu-title > h1 {
+        font-size: 80px; /* Reduz o tamanho da fonte para telas menores */
+    }
+}
+
+/* Media query para telas ainda menores, como smartphones */
+@media screen and (max-width: 576px) {
+    .container__menu-title > h1 {
+        font-size: 50px; /* Reduz ainda mais o tamanho da fonte para smartphones */
+    }
+}
