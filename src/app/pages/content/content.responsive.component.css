@@ -1,0 +1,8 @@
+/* Media query para telas menores, como tablets */
+@media screen and (max-width: 768px) {
+    .content__cover > img {
+        width: 100%; /* Faz com que a imagem ocupe toda a largura do container */
+        min-width: auto; /* Remove a largura mínima da imagem */
+        height: auto; /* Ajusta a altura automaticamente */
+    }
+}
